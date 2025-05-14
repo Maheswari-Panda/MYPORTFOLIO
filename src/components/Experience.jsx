@@ -14,6 +14,17 @@ function Experience() {
 
       <div className="flex flex-wrap gap-8">
         <ExperienceCard
+          jobTitle="Sofyware Developer"
+          company="Computer Centre - The Maharaja SaiyajiRao University of Baroda"
+          duration="May 2025 - Presenr"
+          responsibilities={[
+            "Developed web applications using React,Node js, Express and MongoDB.",
+            "Collaborated with the backend team to integrate REST APIs.",
+            "Optimized code for performance improvements.",
+            "Participated in code reviews and team meetings."
+          ]}
+        />
+        <ExperienceCard
           jobTitle="Full Stack Developer Intern"
           company="Computer Centre - The Maharaja SaiyajiRao University of Baroda"
           duration="Jan 2025 - Apr 2025"
